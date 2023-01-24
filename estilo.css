@@ -1,0 +1,122 @@
+
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background: url(https://assets2.razerzone.com/images/pnx.assets/618c0b65424070a1017a7168ea1b6337/razer-wallpapers-page-hero-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contenedor{
+    min-height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor-calculadora{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 575px;
+    background: teal;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 32px 27px 37px -7px rgba(0,0,0,1);
+    -webkit-box-shadow: 32px 27px 37px -7px rgba(0,0,0,1);
+    -moz-box-shadow: 32px 27px 37px -7px rgba(0,0,0,1);
+}
+
+
+.panel-led{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 280px;
+    height: 75px;
+    margin: 5px;
+    background: rgb(57, 114, 57);
+    box-shadow: 4px -4px 49px -7px rgba(0,0,0,0.34) inset;
+    -webkit-box-shadow: 4px -4px 49px -7px rgba(0,0,0,0.34) inset;
+    -moz-box-shadow: 4px -4px 49px -7px rgba(0,0,0,0.34) inset;
+    
+}
+
+.pantalla{
+    border: 1px solid black;
+    width: 270px;
+    height:68px ;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'DS-Digital', sans-serif;
+                                                
+}
+.pantalla p{
+    margin-left: 15px;
+}
+
+.bt-operaciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 50px;
+}
+.bt-operaciones div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 30px;
+    margin: 3px;
+    background: black;
+    color: wheat;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.bt-operaciones div:hover{
+    background: grey;
+}
+.panel-teclados{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 280px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.panel-teclados div{
+    width:80px;
+    height: 70px;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    font-size: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font:bold;
+    border-radius: 10px;
+}
+
+.panel-teclados div:hover{
+    background: grey;
+}
+
+
+
